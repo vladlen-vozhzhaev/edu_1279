@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Светофор</title>
+		<style>
+			.container{
+				margin: auto;
+				margin-top: 50px;
+				width: 300px;
+				background: black;
+				border: 5px solid gray;
+				padding-bottom: 15px;
+			}
+			.stop, .wait, .go {
+				margin: auto;
+				margin-top: 15px;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				border: 3px solid Silver;
+				box-shadow: inset 0 0 20px black;
+				background: gray;
+				cursor: pointer;
+			}		
+			.stop:hover{
+				background: red;
+			}
+			.wait:hover{
+				background: yellow;
+			}
+			.go:hover{
+				background: lime;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="stop"></div>
+			<div class="wait"></div>
+			<div class="go"></div>
+		</div>
+	</body>
+</html>
